@@ -7,7 +7,7 @@ function mostrar()
 	var edadIngresada;
 
 	nombreIngresado=txtIdNombre.value;
-	edadIngresada=txtIdEdad.val
+	edadIngresada=txtIdEdad.value;
 
 	//testing 
 	alert("Usted se llama "+nombreIngresado+" y tiene "+edadIngresada+" años");
