@@ -6,13 +6,57 @@ C.	Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de c
 
 function Rectangulo () 
 {
+    var tomaLargo;
+    var tomaAncho;
+    var tomaRadio;
+    var calculoAlambre;
+
+    tomaLargo=txtIdLargo.value;
+    tomaLargo=parseInt(tomaLargo);
+    tomaAncho=txtIdAncho.value;
+    tomaAncho=parseInt(tomaAncho);
+    
+    tomaRadio=(tomaLargo+tomaLargo+tomaLargo+tomaAncho)*3.14;
+    calculoAlambre=((tomaLargo*2)+(tomaAncho*2))*3;
+    txtIdRadio.value=tomaRadio;
+
+    alert ("el radio es "+ tomaRadio);
+    alert("La cantidad de alambre es para darle tres vueltas : "+calculoAlambre+" metros de alambre");
+    //txtIdLargo
+    //txtIdAncho
+    //txtIdRadio
 
 }
 function Circulo () 
 {
+    var tomaRadio;
+    var calculoAlambre;
+    
+    tomaRadio=txtIdRadio.value;
+    tomaRadio=parseInt(tomaRadio);
+    calculoAlambre=((tomaRadio*2)*3.14)*3;
+    alert("Para darle 3 vueltas de alambre a un circulo se necesita "+calculoAlambre+ " metros de alambre");
+	
 	
 }
 function Materiales () 
 {
+    var tomaLargo;
+    var tomaAncho;
+    var calculaCemento;
+    var calculaCal;
+
+    calculaCal=3;
+    calculaCemento=2;
+
+    tomaLargo=txtIdLargo.value;
+    tomaLargo=parseInt(tomaLargo);
+    tomaAncho=txtIdAncho.value;
+    tomaAncho=parseInt(tomaAncho);
+
+    calculaCal=(tomaLargo+tomaAncho)*3;
+    calculaCemento=(tomaLargo+tomaAncho)*2;
+    alert("Las bolsas que necesitamos para cubir los "+tomaAncho+" de ancho "+ "+ el largo del terreno "+ tomaLargo+ "se necesitan "+calculaCemento+" bolsas de cemento y "+calculaCal +" bolsas de cal ");
+	
 	
 }

@@ -6,21 +6,20 @@ en el cuadro de texto "RESULTADO".*/
 
 function mostrarAumento()
 {
-	var importeIngresado;
-	var aumento;
-	var importeConAumento;
+     	var importeIngresado; 
+		var aumento;
+		var importeConAumento;
 
-	importeIngresado= txtIdsueldo.value;
-    importeIngresado= parseInt(importeIngresado);
+		importeIngresado= txtIdsueldo.value;
+		importeIngresado= parseInt(importeIngresado);
 
-	aumento= importeIngresado*0.1);
+		aumento= importeIngresado*0.1);
 
-	importeConAumento= importeIngresado+aumento;
+		importeConAumento= importeIngresado+aumento;
 
-	txtIdResultado.value= importeConAumento;
-
-
-	alert("El resultado con el aumento del 10% es: " + importeConAumento);
+		txtIdResultado.value= importeConAumento;
+		
+		alert("El resultado con el aumento del 10% es: " + importeConAumento);
 	
 }
 
