@@ -10,16 +10,15 @@ function mostrarAumento()
 		var aumento;
 		var importeConAumento;
 
-		importeIngresado= txtIdsueldo.value;
+		importeIngresado= txtIdSueldo.value;
 		importeIngresado= parseInt(importeIngresado);
 
-		aumento= importeIngresado*0.1);
+		aumento= importeIngresado*10/100;
 
-		importeConAumento= importeIngresado+aumento;
+		importeConAumento= importeIngresado + aumento;
 
 		txtIdResultado.value= importeConAumento;
 		
-		alert("El resultado con el aumento del 10% es: " + importeConAumento);
 	
 }
 

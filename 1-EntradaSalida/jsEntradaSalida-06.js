@@ -5,9 +5,6 @@ mostrar el resulto por medio de "ALERT"*/
 
 function sumar()
 {
-	//txtIdNumeroUno
-	//txtIdNumeroDos
-
 	var numeroUno;
 	var numeroDos;
 	var resultado;
@@ -21,6 +18,6 @@ function sumar()
 
 	resultado=numeroUno+numeroDos;
 
-	alert("La suma es: "+resultado);
+	alert("La suma es: " + resultado);
 }
 

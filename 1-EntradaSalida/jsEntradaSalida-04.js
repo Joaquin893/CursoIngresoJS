@@ -5,10 +5,13 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 
 function mostrar()
 {
-	var nombreIngresado; //declaracion de la variable
+	//Declaro la variable
+	var nombreIngresado; 
 
+    //A la variable asignada, le ponemos el PROMPT
 	nombreIngresado=prompt("Ingrese su nombre", "Su nombre");
 
+    //En la caja de texto va a aparecer el nombre que el usuario puso en el PROMPT
      txtIdNombre.value = nombreIngresado;
 }
 

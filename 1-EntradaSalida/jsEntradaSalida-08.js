@@ -20,7 +20,7 @@ function SacarResto()
 
 	resultado=numeroDividendo%numeroDivisor;
 
-	alert("El resto es: "+resultado);
+	alert("El resto es: " + resultado);
 }
 	
 

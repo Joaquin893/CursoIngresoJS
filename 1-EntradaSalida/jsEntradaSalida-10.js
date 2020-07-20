@@ -3,18 +3,20 @@ Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
+
 function mostrarAumento()
 {
-	var sueldo;
-	var resultado;
+	var importe;
+	var descuento;
+	var importeConDescuento;
 
-	sueldo = txtIdImporte.value;
-	sueldo = parseInt(sueldo);
+	importe = txtIdImporte.value;
+	importe = parseInt(importe);
 
-	resultado = txtIdResultado.value;
-	resultado = parseInt(resultado);
+	descuento = importe*25/100;
 
-	alert ("El resultado es: " + );
+	importeConDescuento = importe - descuento;
 
+	txtIdResultado.value = importeConDescuento;
 
 }
