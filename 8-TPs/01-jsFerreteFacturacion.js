@@ -11,16 +11,16 @@ function Sumar ()
     var precioTres;
     var suma;
 
-    precioUno = txtIdPrecioUno.value;
-    precioUno = parseInt(precioUno);
+    precioUno= txtIdPrecioUno.value;
+    precioUno= parseInt(precioUno);
 
-    precioDos = txtIdPrecioDos.value;
-    precioDos = parseInt(precioDos);
+    precioDos= txtIdPrecioDos.value;
+    precioDos= parseInt(precioDos);
 
-    precioTres = txtIdPrecioTres.value;
-    precioTres = parseInt(precioTres);
+    precioTres= txtIdPrecioTres.value;
+    precioTres= parseInt(precioTres);
 
-    suma = precioUno + precioDos + precioTres;
+    suma= precioUno + precioDos + precioTres;
 
     alert("El resultado de la suma es: "+suma);
 
@@ -38,16 +38,16 @@ function Promedio ()
     var precioTres;
     var promedioFinal;
 
-    precioUno = txtIdPrecioUno.value;
-    precioUno = parseInt(precioUno);
+    precioUno= txtIdPrecioUno.value;
+    precioUno= parseInt(precioUno);
 
-    precioDos = txtIdPrecioDos.value;
-    precioDos = parseInt(precioDos);
+    precioDos= txtIdPrecioDos.value;
+    precioDos= parseInt(precioDos);
 
-    precioTres = txtIdPrecioTres.value;
-    precioTres = parseInt(precioTres);
+    precioTres= txtIdPrecioTres.value;
+    precioTres= parseInt(precioTres);
 
-    promedioFinal = (precioUno+precioDos+precioTres)/3;
+    promedioFinal= (precioUno+precioDos+precioTres)/3;
 
     alert("El resultado del promedio es: "+promedioFinal);
 
@@ -63,27 +63,22 @@ function PrecioFinal ()
     var precioConIva;
     var precioFinalConIva;
 
-    precioUno = txtIdPrecioUno.value;
-    precioUno = parseInt(precioUno);
+    precioUno= txtIdPrecioUno.value;
+    precioUno= parseInt(precioUno);
 
-    precioDos = txtIdPrecioDos.value;
-    precioDos = parseInt(precioDos);
+    precioDos= txtIdPrecioDos.value;
+    precioDos= parseInt(precioDos);
 
-    precioTres = txtIdPrecioTres.value;
-    precioTres = parseInt(precioTres);
+    precioTres= txtIdPrecioTres.value;
+    precioTres= parseInt(precioTres);
 
-    suma = precioUno + precioDos + precioTres;
+    suma= precioUno + precioDos + precioTres;
 
-    precioConIva = suma*21/100;
+    precioConIva= suma*21/100;
 
-    precioFinalConIva = suma + precioConIva;
+    precioFinalConIva= suma + precioConIva;
 
     alert("El precio final con el 21% de IVA es: "+precioFinalConIva);
-
-    
-
-    
-
 
 	
 }

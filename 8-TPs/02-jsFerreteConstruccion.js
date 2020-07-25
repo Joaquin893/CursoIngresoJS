@@ -8,23 +8,22 @@ function Rectangulo ()
 {
     var tomaLargo;
     var tomaAncho;
-    var tomaRadio;
+    var Perimetro;
     var calculoAlambre;
 
     tomaLargo=txtIdLargo.value;
     tomaLargo=parseInt(tomaLargo);
+
     tomaAncho=txtIdAncho.value;
     tomaAncho=parseInt(tomaAncho);
     
-    tomaRadio=(tomaLargo+tomaLargo+tomaLargo+tomaAncho)*3.14;
-    calculoAlambre=((tomaLargo*2)+(tomaAncho*2))*3;
+    Perimetro=(tomaLargo+tomaAncho)*2;
+
+    calculoAlambre=tomaRadio*3;
+
     txtIdRadio.value=tomaRadio;
 
-    alert ("el radio es "+ tomaRadio);
-    alert("La cantidad de alambre es para darle tres vueltas : "+calculoAlambre+" metros de alambre");
-    //txtIdLargo
-    //txtIdAncho
-    //txtIdRadio
+    alert("La cantidad de alambre a comprar son : "+calculoAlambre+" metros");
 
 }
 function Circulo () 
@@ -34,7 +33,9 @@ function Circulo ()
     
     tomaRadio=txtIdRadio.value;
     tomaRadio=parseInt(tomaRadio);
+
     calculoAlambre=((tomaRadio*2)*3.14)*3;
+
     alert("Para darle 3 vueltas de alambre a un circulo se necesita "+calculoAlambre+ " metros de alambre");
 	
 	
@@ -51,6 +52,7 @@ function Materiales ()
 
     tomaLargo=txtIdLargo.value;
     tomaLargo=parseInt(tomaLargo);
+
     tomaAncho=txtIdAncho.value;
     tomaAncho=parseInt(tomaAncho);
 
